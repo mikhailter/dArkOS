@@ -1,3 +1,5 @@
+#!/bin/bash
+
 directory=$(dirname "$3" | cut -d "/" -f2)
 
 for d in GC StateSaves ScreenShots Wii; do
